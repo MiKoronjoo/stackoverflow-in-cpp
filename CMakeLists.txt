@@ -6,12 +6,10 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(stackoverflow_in_cpp
-    AbstractUser.h
-    CMakeLists.txt
-    Design.png
-    Exceptions.h
-    LICENSE
-    main.cpp
-    README.md
-    User.cpp
-    User.h)
+        AbstractUser.h
+        Exceptions.h
+        Logger.cpp
+        Logger.h
+        main.cpp
+        User.cpp
+        User.h)
